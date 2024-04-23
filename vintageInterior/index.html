@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <script src="js/jquery.js" charset="utf-8"></script>
+  <script src="js/jquery3.4.1.min.js" charset="utf-8"></script>
+  <script src="js/owl.carousel.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container_content">
+  <header id="home" style="background-image: url(image/indexbg.jpg)">
+    <div class="container_content">
+      <div class="container">
+        <div class="icon flex1">
+          <div class="box">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-twitter"></i>
+          </div>
+          <div class="box">
+            <i class="fa fa-envelope"></i>
+            <label>safalmahat23@gmail.com</label>
+            <i class=" fa fa-phone"></i>
+            <label>+358462345546</label>
+          </div>
+        </div>
+        <hr>
+        <nav>
+          <div class="barnd">
+            <h1>Vintage Interiors</h1>
+          </div>
+
+          <ul id="menu">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="/testimonials.html">TESTIMONIALS</a></li>
+            <li><a href="/blog.html">BLOG</a></li>
+            <li><a href="./photo.html">SERVICES</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+          <i id="icon" class="fa fa-bars"></i>
+        </nav>
+
+        <div class="home">
+          
+          <h1>Experience Interior <br> Design</h1>         
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <script>
+    let bar = document.getElementById("icon");
+    let menu = document.getElementById("menu");
+
+    bar.addEventListener("click", function() {
+      if (bar.className === "fa fa-bars") {
+        bar.className = "fa fa-times";
+        menu.style.right = 0;
+      } else {
+        bar.className = "fa fa-bars";
+        menu.style.right = "-1000px";
+      }
+    })
+  </script>
+
+
+  <section class="Design">
+    <div class="container grid">
+      <div class="box flex">
+        <i class="fa fa-qrcode"></i>
+        <div class="text">
+          <h4>Creative Solutions</h4>
+          <p> At Vintage Interiors, creativity is at the heart of everything we do. 
+            We believe in going beyond the conventional and transforming challenges into opportunities. 
+            Our commitment to innovative thinking sets us apart,</p>
+        </div>
+      </div>
+      <div class="box flex">
+        <i class="fa fa-wpexplorer"></i>
+        <div class="text">
+          <h4>Design Interior</h4>
+          <p>At Vintage Interiors, we believe that a well-designed space has the power to enhance not only the aesthetics but also the functionality and overall experience of your home or workplace.</p>
+        </div>
+      </div>
+      <div class="box flex">
+        <i class="fa fa-lightbulb-o"></i>
+        <div class="text">
+          <h4>Intuitive Design</h4>
+          <p>At Vintage Interiors, we embrace the philosophy of intuitive design, a principle that lies at the heart of creating spaces that seamlessly blend functionality with a user's natural instincts and habits.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <footer>
+    <div class="container">
+      <div class="content grid">
+        <div class="item ">
+          <h3>Navigation</h3>
+          <div class="item_box flex1 ">
+            <ul>
+              <li>Home</li>
+              <li>Services</li>
+              <li>News</li>
+              <li>Team</li>
+            </ul>
+            <ul>
+              <li>About Us</li>
+              <li>Privacy Policy</li>
+              <li>Contact</li>
+              <li>Membership</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>Recent News</h3>
+          <div class="box flex">
+            <div class="img">
+              <img src="image/butler.jpg" alt="">
+            </div>
+            <div class="text">
+              <label style="color: beige; font-size: 20px;">Unveiling Our Latest Masterpiece: Butler Project</label>
+              <p>Our latest project, Butler Project.</p>
+            </div>
+          </div>
+          <div class="box flex">
+            <div class="img">
+              <img src="image/p1.jpg" alt="">
+            </div>
+            <div class="text">
+              <label style="color: beige; font-size: 20px;">Join us at Pasilankatu for our event.</label>
+              <p>At October 28, 2023</p>
+            </div>
+          </div>
+          <div class="box flex">
+            <div class="img">
+              <img src="image/p1.jpg" alt="">
+            </div>
+            <div class="text">
+              <label style ="color: beige; font-size: 20px;">Featured in Media Outlet</label>
+              <p>Featured by yle</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>Subscribe Newsletter</h3>
+          <p>Discover Our Latest Projects: Get an exclusive look at our most recent projects, from residential masterpieces to cutting-edge commercial spaces.</p>
+          <p>Receive Design Tips and Trends: Stay ahead of the curve with our curated design tips and insights. Learn how to elevate your space and incorporate the latest trends into your home or office.</p>
+          <h3>Contact Us</h3>
+          <p>Email: safalmahat23@gmail.com</p>
+          <p>Address: Ratapihantie 13, 00520 Helsinki, Finland</p>
+          <p>Phone: +358462345546</p>
+          <input type="text" placeholder="Enter Email">
+          <label class="label">Send</label>
+          <div class="icon">
+            <h3>Follow Us</h3>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+      <p class="legal">Copyright (c) 2023 <i class="fa fa-heart"></i><label> Vintage Interiors</label> </p>
+    </div>
+  </footer>
+</body>
+
+</html>

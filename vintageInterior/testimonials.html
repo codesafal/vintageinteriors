@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <script src="js/jquery.js" charset="utf-8"></script>
+  <script src="js/jquery3.4.1.min.js" charset="utf-8"></script>
+  <script src="js/owl.carousel.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<header id="home" style="background-image: url(image/testbg.jpg)">
+    <div class="container_content">
+      <div class="container">
+        <div class="icon flex1">
+          <div class="box">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-twitter"></i>
+          </div>
+          <div class="box">
+            <i class="fa fa-envelope"></i>
+           <label>safalmahat23@gmail.com</label>
+            <i class=" fa fa-phone"></i>
+            <label>+358462345546</label>
+          </div>
+        </div>
+        <hr>
+        <nav>
+          <div class="barnd">
+            <h1>Vintage Interiors</h1>
+          </div>
+
+          <ul id="menu">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./testimonials.html">TESTIMONIALS</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./photo.html">SERVICES</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+          <i id="icon" class="fa fa-bars"></i>
+        </nav>     
+        <div class="home">
+          <h2>TESTIMONIALS</h2>
+          <h3>At Vintage Interiors, our mission is to transform spaces and exceed expectations. 
+            But don't just take our word for it. Hear what our clients have to say about their experience working with us: </h3>               
+        </div>       
+
+
+      </div>
+    </div>
+  </header>
+  <section class="about" id="ABOUT">
+    <div class="container flex1">
+      <div class="left">
+        <div class="img">
+          <img src="image/testimonial.jpg" alt="">
+        </div>
+      </div>
+
+
+      <div class="right">
+        <h2>Reviews</h2>
+        <button class="accordion  "> <label>A Dream Realized</label> </button>
+        <div class="panel active">
+          <p>Working with Vintage Interiors was an absolute pleasure. 
+            From the initial consultation to the final reveal, the team exhibited unparalleled professionalism and creativity. 
+            They took the time to understand my vision and turned it into a reality. 
+            Every detail was meticulously curated, resulting in a space that not only meets but exceeds my expectations. 
+            I can't recommend them enough!                        
+          </p>
+          <strong style="margin: 10px;"> — Aurora Ketterer</strong>
+        </div>
+
+        <button class="accordion">Innovative and Timeless Designs</button>
+        <div class="panel">
+          <p>Vintage Interiors has an incredible ability to blend innovation with timelessness. 
+            Our project was handled with precision, and the final result speaks volumes about their expertise. 
+            The team's attention to detail and commitment to quality are truly commendable. 
+            It's not just about creating beautiful spaces; it's about creating a lifestyle. Thank you for making our house a home.</p>
+            <strong style="margin: 10px;"> — Joni Sievinen</strong>   
+        </div>
+
+        <button class="accordion">Exceptional Service from Start to Finish</button>
+        <div class="panel">
+          <p>From our initial consultation to the final installation, the team at Vintage Interiors provided exceptional service. 
+          They listened to our ideas, offered valuable insights, and executed the design flawlessly. 
+          What sets them apart is their commitment to transparency and communication. 
+          We always felt informed and involved throughout the entire process. We couldn't be happier with the results.</p>
+          <strong style="margin: 10px;"> — Teuvo Rapinoja</strong>
+        </div>
+
+        <button class="accordion"> Turning Vision into Reality</button>
+        <div class="panel">
+          <p>Vintage Interiors has a remarkable ability to turn a vision into reality. 
+            Their creativity, paired with a deep understanding of design principles, resulted in a space that truly reflects our style and personality.
+             The team's professionalism and dedication to delivering on time and within budget are truly commendable. We look forward to working with them on future projects.</p>
+             <strong style="margin: 10px;"> — Ritva Keskinen</strong>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+  
+  <footer>
+    <div class="container">
+      <div class="content grid">
+        <div class="item ">
+          <h3>Navigation</h3>
+          <div class="item_box flex1 ">
+            <ul>
+              <li>Home</li>
+              <li>Services</li>
+              <li>News</li>
+              <li>Team</li>
+            </ul>
+            <ul>
+              <li>About Us</li>
+              <li>Privacy Policy</li>
+              <li>Contact</li>
+              <li>Membership</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>Recent News</h3>
+          <div class="box flex">
+            <div class="img">
+              <img src="image/butler.jpg" alt="">
+            </div>
+            <div class="text">
+              <label style="color: beige; font-size: 20px;">Unveiling Our Latest Masterpiece: Butler Project</label>
+              <p>Our latest project, Butler Project.</p>
+            </div>
+          </div>
+          <div class="box flex">
+            <div class="img">
+              <img src="image/p1.jpg" alt="">
+            </div>
+            <div class="text">
+              <label style="color: beige; font-size: 20px;">Join us at Pasilankatu for our event.</label>
+              <p>At October 28, 2023</p>
+            </div>
+          </div>
+          <div class="box flex">
+            <div class="img">
+              <img src="image/p1.jpg" alt="">
+            </div>
+            <div class="text">
+              <label style ="color: beige; font-size: 20px;">Featured in Media Outlet</label>
+              <p>Featured by yle</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>Subscribe Newsletter</h3>
+          <p>Discover Our Latest Projects: Get an exclusive look at our most recent projects, from residential masterpieces to cutting-edge commercial spaces.</p>
+          <p>Receive Design Tips and Trends: Stay ahead of the curve with our curated design tips and insights. Learn how to elevate your space and incorporate the latest trends into your home or office.</p>
+          <h3>Contact Us</h3>
+          <p>Email: safalmahat23@gmail.com</p>
+          <p>Address: Ratapihantie 13, 00520 Helsinki, Finland</p>
+          <p>Phone: +358462345546</p>
+          <input type="text" placeholder="Enter Email">
+          <label class="label">Send</label>
+          <div class="icon">
+            <h3>Follow Us</h3>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+      <p class="legal">Copyright (c) 2023 <i class="fa fa-heart"></i><label> Vintage Interiors</label> </p>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
